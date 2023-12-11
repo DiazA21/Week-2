@@ -1,0 +1,21 @@
+img {
+    display: none;
+    width: 800px;
+    height: 500px;
+
+}
+
+h2 {
+    visibility: hidden;
+}
+
+.a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: coral;
+    border: goldenrod;
+    padding: 5px;
+    
+}

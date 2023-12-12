@@ -1,0 +1,20 @@
+/* Declare variables in the :root selector */
+:root {
+    --darkBlue: #0389cc;
+    --orangeYellow: #8b4c03;
+    --spacing: 10px;
+
+}
+
+article {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--darkBlue) ;
+    color: var(--orangeYellow);
+    padding: var(--spacing);
+    margin: var(--spacing);
+}
+
+#article2 {
+    background-color: var(--darkBlue);
+    
+}

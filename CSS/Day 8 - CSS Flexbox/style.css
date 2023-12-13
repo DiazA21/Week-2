@@ -1,0 +1,90 @@
+/* Base Styling */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box{
+    color: antiquewhite;
+    /* font-size: 100px; */
+    text-align: center;
+    padding: 15px;
+}
+
+.box1{
+    background-color: brown;
+}
+
+.box2{
+    background-color:cornflowerblue;
+}
+
+.box3{
+    background-color:darkgoldenrod;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 800px;
+}
+
+/* Flexbox code below */
+
+.container {
+    display: flex;
+    /* flexbox only applies to parent elements */
+
+    /* "Flex-Direction" - Controls our main axis */
+    /* Set to row by default */
+    /* flex-direction: column; */
+
+    /* "Flex-Wrap" - Controls how of if hour elemts will wrap if the conatiner 
+    is too small to fit them */
+    /* No wrap is the default setting */
+    /* flex-wrap: wrap; */
+
+    /* Justify-content - Controls how elements are distributed across the main axis */
+    /* Set to flex-start by default */
+    /* justify-content: center; */
+
+    /* Align-Items - How we align elements on the secondary axis (cross axis) */
+    /* Set to stretch by default */
+    /* align-items: center; */
+
+    /* Align-Content - Controls how elements are aligned on our secondary axis
+    *ONLY* if flex-wrap is in affect */
+    /* align-content: space-evenly; */
+}
+
+.box {
+    /* Align-self - allows us to align individual items */
+    /* align-self: baseline; */
+    /* Baseline - align to baseline of the text */
+}
+
+.box1 {
+    /* Flex-basis - set a minimum width for our elements
+    if our container provides enough space*/
+    /* flex-basis: 200px; */
+
+    /* Flex-Grow - takes a number value */
+    /* Sets the rate at which an element will grow
+    into *available* space */
+    /
+
+    /* Flex-Shrink - reverse of flex-grow */
+}
+
+.box2 {
+    /* flex-basis: 200px;
+    flex-grow: 2; */
+}
+
+.box3 {
+    /* flex-basis: 200px; */
+}
